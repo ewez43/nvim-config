@@ -29,7 +29,7 @@ return {
         "c",
         "python",
         "go",
-        "javascript",
+        "typescript",
         "markdown",
       },
       auto_install = true,

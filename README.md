@@ -3,10 +3,10 @@ Plugin installation
 ```bash
 sudo apt-get install clangd
 gem install ruby-lsp
-npm install -g typescript-language-server typescript
+sudo npm install -g typescript-language-server typescript
 sudo apt-get install python3-pylsp
 go install golang.org/x/tools/gopls@latest
-npm install -g @fsouza/prettierd
+sudo npm install -g @fsouza/prettierd
 gem install rubocop
 ```
 
