@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    event = 'BufWritePre', -- uncomment for format on save
+    event = "BufWritePre", -- uncomment for format on save
     opts = require "configs.conform",
   },
 
@@ -18,12 +18,28 @@ return {
 
   {
     "nvim-treesitter/nvim-treesitter",
-  	opts = {
+    opts = {
       ensure_installed = {
-        "vim", "lua", "vimdoc",
-        "html", "css", "ruby", "c",
-        "python", "go", "javascript",
-    	},
+        "vim",
+        "lua",
+        "vimdoc",
+        "html",
+        "css",
+        "ruby",
+        "c",
+        "python",
+        "go",
+        "javascript",
+      },
+      auto_install = true,
+      endwise = { enabled = true },
     },
+  },
+  {
+    "RRethy/nvim-treesitter-endwise",
+    event = { "BufReadPost", "BufNewFile" },
+    config = function()
+      -- No specific setup() call required, just needs to be loaded
+    end,
   },
 }
