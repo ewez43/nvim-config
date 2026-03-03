@@ -1,3 +1,17 @@
+Plugin installation
+
+```bash
+sudo apt-get install clangd
+gem install ruby-lsp
+npm install -g typescript-language-server typescript
+sudo apt-get install python3-pylsp
+go install golang.org/x/tools/gopls@latest
+npm install -g @fsouza/prettierd
+gem install rubocop
+```
+
+------------------------------------------------------------------------------------
+
 **This repo is supposed to be used as config by NvChad users!**
 
 - The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.

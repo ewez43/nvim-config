@@ -30,6 +30,7 @@ return {
         "python",
         "go",
         "javascript",
+        "markdown",
       },
       auto_install = true,
       endwise = { enabled = true },
