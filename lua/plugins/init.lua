@@ -43,4 +43,7 @@ return {
       -- No specific setup() call required, just needs to be loaded
     end,
   },
+  {
+    "tpope/vim-rails",
+  },
 }
