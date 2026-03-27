@@ -106,4 +106,7 @@ return {
       })
     end,
   },
+  {
+    "seandewar/actually-doom.nvim",
+  },
 }
