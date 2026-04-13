@@ -5,6 +5,10 @@ local options = {
     html = { "prettierd" },
     python = { "prettierd" },
     ruby = { "rubocop" },
+    javascript = { "eslint_d" },
+    typescript = { "eslint_d" },
+    javascriptreact = { "eslint_d" },
+    typescriptreact = { "eslint_d" },
   },
 
   format_on_save = {
