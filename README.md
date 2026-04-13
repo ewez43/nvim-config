@@ -8,6 +8,7 @@ sudo apt-get install python3-pylsp
 go install golang.org/x/tools/gopls@latest
 sudo npm install -g @fsouza/prettierd
 gem install rubocop
+npm install -g eslint_d
 ```
 
 ------------------------------------------------------------------------------------
