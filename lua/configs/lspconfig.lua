@@ -20,6 +20,10 @@ vim.lsp.config("ts_ls", {
   },
 })
 
+vim.lsp.config("lua_ls", {
+  cmd = { "/home/ewez05/lua-lsp/bin/lua-language-server" }, -- REPLACEABLE insert your own bin
+})
+
 local servers = { "html", "cssls", "clangd", "ruby_lsp", "ts_ls", "pylsp", "gopls", "lua_ls" }
 vim.lsp.enable(servers)
 
