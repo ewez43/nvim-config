@@ -1,4 +1,4 @@
-Plugin installation
+# Plugin installation
 
 ```bash
 sudo apt-get install clangd
@@ -11,7 +11,13 @@ gem install rubocop
 npm install -g eslint_d
 ```
 
-Search the repo for 'REPLACEABLE' keyword - lines with these comments might need to be substituted.
+# Creating local.lua
+
+Sometimes the config needs to know the paths to some things in your filesystems. These cases are handled by the local.lua file in lua/configs. To create this file simply rename local.lua.example to local.lua and substitute the example paths with your own.
+
+```bash
+mv ~/.config/nvim/lua/configs/local.lua.example ~/.config/nvim/lua/configs/local.lua
+```
 
 ------------------------------------------------------------------------------------
 

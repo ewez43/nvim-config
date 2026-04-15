@@ -1,0 +1,3 @@
+return {
+  lua_lsp_path = "/home/ewez05/lua-lsp/bin/lua-language-server",
+}

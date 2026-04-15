@@ -1,6 +1,14 @@
 vim.g.base46_cache = vim.fn.stdpath "data" .. "/base46/"
 vim.g.mapleader = " "
 
+local ok, local_config = pcall(require, "configs.local")
+
+if ok then
+  vim.g.local_config = local_config
+else
+  vim.g.local_config = {}
+end
+
 -- bootstrap lazy and all plugins
 local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
 
