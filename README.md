@@ -11,6 +11,8 @@ gem install rubocop
 npm install -g eslint_d
 ```
 
+Search the repo for 'REPLACEABLE' keyword - lines with these comments might need to be substituted.
+
 ------------------------------------------------------------------------------------
 
 **This repo is supposed to be used as config by NvChad users!**
