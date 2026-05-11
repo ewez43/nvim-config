@@ -1,5 +1,11 @@
 require("nvchad.configs.lspconfig").defaults()
 
+vim.lsp.config("gopls", {
+  settings = {
+    gofumpt = true,
+  },
+})
+
 vim.lsp.config("ts_ls", {
   settings = {
     typescript = {
