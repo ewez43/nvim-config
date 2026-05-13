@@ -20,6 +20,16 @@ vim.lsp.config("ts_ls", {
   },
 })
 
+vim.lsp.config("gopls", {
+  filetypes = { "go", "gomod", "gowork", "gosum" },
+  settings = {
+    gopls = {
+      templateExtensions = { "tmpl", "gotmpl", "templ" },
+      gofumpt = true,
+    },
+  },
+})
+
 vim.lsp.config("lua_ls", {
   cmd = { vim.g.local_config.lua_lsp_path },
 })
